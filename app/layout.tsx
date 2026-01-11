@@ -13,6 +13,19 @@ export const metadata: Metadata = {
   },
   description: "GNSS-denied autonomous UAV mission control dashboard for planetary exploration",
   generator: "sree.app",
+  openGraph: {
+    title: "ASCEND - Autonomous Surveyor Mission Interface",
+    description: "GNSS-denied autonomous UAV mission control dashboard for planetary exploration",
+    url: "https://sree.app",
+    siteName: "ASCEND Dashboard",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ASCEND - Autonomous Surveyor Mission Interface",
+    description: "GNSS-denied autonomous UAV mission control dashboard for planetary exploration",
+  },
   icons: {
     icon: [
       {
