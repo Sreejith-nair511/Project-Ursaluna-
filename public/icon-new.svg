@@ -1,0 +1,28 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: #0a0e27; }
+      .foreground { fill: #ffffff; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #ffffff; }
+      .foreground { fill: #0a0e27; }
+    }
+  </style>
+  <rect class="background" width="180" height="180" rx="37" />
+  <!-- Simple geometric representation of a UAV -->
+  <g transform="translate(90, 90) scale(0.8)">
+    <!-- Center body -->
+    <circle cx="0" cy="0" r="15" class="foreground" />
+    <!-- Arms -->
+    <line x1="0" y1="0" x2="40" y2="0" stroke="currentColor" stroke-width="6" class="foreground" />
+    <line x1="0" y1="0" x2="-40" y2="0" stroke="currentColor" stroke-width="6" class="foreground" />
+    <line x1="0" y1="0" x2="0" y2="40" stroke="currentColor" stroke-width="6" class="foreground" />
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="currentColor" stroke-width="6" class="foreground" />
+    <!-- Motors/rotors -->
+    <circle cx="40" cy="0" r="8" stroke="currentColor" stroke-width="2" fill="none" class="foreground" />
+    <circle cx="-40" cy="0" r="8" stroke="currentColor" stroke-width="2" fill="none" class="foreground" />
+    <circle cx="0" cy="40" r="8" stroke="currentColor" stroke-width="2" fill="none" class="foreground" />
+    <circle cx="0" cy="-40" r="8" stroke="currentColor" stroke-width="2" fill="none" class="foreground" />
+  </g>
+</svg>
